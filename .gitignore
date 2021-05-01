@@ -30,3 +30,52 @@
 *.exe
 *.out
 *.app
+# User-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.nupkg
+
+# Cached files
+*.[Cc]ache
+packages/
+**/packages/*
+node_modules/
+**/node_modules/*
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+[Bb]ld/
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+cmake-build-*/
+
+# Personal/Local notes folders
+_*[Ii]gnore[Mm]e/
+_*[Ii]gnore_[Mm]e/
+_*[Mm]y[Nn]otes/
+_*[Mm]y_[Nn]otes/
+_*[Mm]y_[Nn]otes/
+_*[Tt]emp/
+_*[Tt]mp/
+_*[Nn]ot[Uu]sed/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CLion project files
+/.idea
+
